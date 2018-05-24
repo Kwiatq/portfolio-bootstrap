@@ -14,6 +14,11 @@ body {
 span {
     color: #1ac056;
 }
+section .section-header {
+	margin-bottom: 70px;
+	text-align: center;
+	width: 100%;
+}
 
 section {
     padding: 0;
@@ -24,60 +29,16 @@ a {
     transition: all 0.3s;
 }
 
-/*
-h2 {
-    text-align: center;
-}
-*/
+/* dodanie klasy dla scrolla*/
 
-/* GENERAL STYLES - END */
-
-/* NAVIGATION - START */
-
-/*
-#main-nav {
-    background-color: #fff;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 20;
+#main-nav.scroll {
+	background-color: #1ac056;  
+    color:black;
 }
 
-#main-nav ul {
-    float: right;
+#main-nav.scroll .nav-item a:hover {
+	color: yellow;
 }
-
-#main-nav ul li {
-    display: inline-block;
-    padding: 20px 30px;
-}
-
-#main-nav ul li a {
-    text-decoration: none;
-    color: #1ac056;
-    font-weight: 300;
-}
-
-#main-nav ul li a:hover {
-    color: #291f1a;
-}
-*/
-
-/* NAVIGATION - END */
-
-/* HEADER - START */
-
-/*
-#main-header {
-    background-image: url("../img/header-background.jpg");
-    height: 500px;
-    background-position: center;
-    background-size: cover;
-    color: #fff;
-    margin:5px;
-    padding: 5px;
-}
-*/
 
 
 
@@ -117,10 +78,14 @@ h2 {
 	text-align: center;
 }
 
+#o-mnie .section-header .section-title h2 {
+ text-align:center;
+    align-items: center;
+    justify-content: center;
+}
+
 #o-mnie figure {
     width: 100%;
-/*    float: left;*/
-/*    text-align: center;*/
     margin: 0;
 }
 
@@ -131,26 +96,13 @@ h2 {
     border-radius: 15px;
 }
 
-#o-mnie article {
-/*    width: 100%;*/
-/*    float: left;*/
-}
-
 /* ABOUT - END */
 
 /* SKILLS - START */
 
-/*
-#skills p, #skills .skills-icons {
-    text-align: center;
-}
-*/
-
 #skills .skills-icons .skills-icons-item {
     display: inline-block;
 }
-
-
 
 /* SKILLS - END */
 
