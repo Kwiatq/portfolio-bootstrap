@@ -145,6 +145,7 @@ a {
 
 #portfolio .portfolio-item .item-mask:hover {
     opacity: 1;
+    cursor:pointer;
 }
 
 #portfolio .portfolio-item .item-mask .item-content {
